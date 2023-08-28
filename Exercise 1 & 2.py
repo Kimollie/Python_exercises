@@ -26,11 +26,23 @@ average = sum/3
 print(f"Sum: {sum}")
 print(f"Product: {product}")
 print(f"Average: {average}")
-"""
+
 #Ex 2.5
 talents = float(input("Enter talents: "))
 pounds = float(input("Enter pounds: "))
 lots = float(input("Enter lots: "))
+tal_pnd = talents*20
+pnd_lt = (pounds +tal_pnd)*32
+lt_gr = (lots+pnd_lt)*13.3
+kilograms = int(lt_gr/1000)
+grams = (lt_gr/1000 - kilograms)*1000
+print(f"The weight in modern units: \n{kilograms} kilograms and {grams:.2f} grams.")
+"""
+#Ex 2.6
+
+
+
+
 
 
 
