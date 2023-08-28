@@ -1,6 +1,7 @@
 import math
+import random
 #Ex1 and 2.1
-"""name = input("What's your name?")
+name = input("What's your name?")
 print("Hello, "+name)
 
 #Ex 2.2
@@ -37,8 +38,17 @@ lt_gr = (lots+pnd_lt)*13.3
 kilograms = int(lt_gr/1000)
 grams = (lt_gr/1000 - kilograms)*1000
 print(f"The weight in modern units: \n{kilograms} kilograms and {grams:.2f} grams.")
-"""
+
 #Ex 2.6
+lock3_dig1 = random.randint(0,9)
+lock3_dig2 = random.randint(0,9)
+lock3_dig3 = random.randint(0,9)
+print(f"3-digit code ombination: {lock3_dig1}{lock3_dig2}{lock3_dig3}")
+lock4_dig1 = random.randint(1,6)
+lock4_dig2 = random.randint(1,6)
+lock4_dig3 = random.randint(1,6)
+lock4_dig4 = random.randint(1,6)
+print(f"4-digit code ombination: {lock4_dig1}{lock4_dig2}{lock4_dig3}{lock4_dig4}")
 
 
 
