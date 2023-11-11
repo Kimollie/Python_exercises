@@ -1,4 +1,5 @@
 import json
+
 import requests
 
 # Ex 12.1
